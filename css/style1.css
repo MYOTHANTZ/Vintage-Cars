@@ -1,0 +1,82 @@
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    margin-top: 120px;
+    color: whitesmoke;
+}
+.for-header{
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.for-native{
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.for-native a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 12px;
+    transition: opacity 0.15s;
+}
+.header-img{
+    align-items: center;
+}
+.img-for-header{
+    height: 90px;
+    margin-left: 10px;
+}
+.for-img-and-native{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.for-footer{
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+
+}
+.for-main-middle{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.for-number{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.img1{
+    width: 300px;
+    height: 150px;
+}
+.for-text p{
+    width: 500px;
+    line-height: 25px;
+}
+.for-main{
+    margin-top: 50px;
+}
+.for-native a:hover{
+    opacity: 0.8;
+}
+.for-native a:active{
+    opacity: 0.5;
+}

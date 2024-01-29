@@ -1,0 +1,71 @@
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    margin-top: 120px;
+    color: whitesmoke;
+}
+.for-main{
+    padding-left: 10px;
+}
+.for-header{
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.for-native{
+    display: flex;
+    padding: 20px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.for-native a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 12px;
+    transition: opacity 0.15s;
+}
+.header-img{
+    align-items: center;
+}
+.img-for-header{
+    height: 90px;
+    margin-left: 10px;
+}
+.for-img-and-native{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vintage-cars-means{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.img1{
+    height: 370px;
+    width: 370px;
+    border: 1px solid  hsl(0, 0%, 76%);
+    border-radius: 10px;
+}
+.for-footer{
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+.for-native a:hover{
+    opacity: 0.8;
+}
+.for-native a:active{
+    opacity: 0.5;
+}
